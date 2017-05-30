@@ -40,7 +40,8 @@ Docker Swarm???
 # References
 Kurtzer GM, Sochat V, Bauer MW (2017) Singularity: Scientific containers for mobility of compute. PLOS ONE 12(5): e0177459. https://doi.org/10.1371/journal.pone.0177459
 
-[Meetup Day 1](https://www.meetup.com/Tucson-Data-Science-Meetup/events/239386940/)
+----
+[Meetup Day 1](https://www.meetup.com/Tucson-Data-Science-Meetup/events/239386940/) /n
 In case you're not familiar, shipping containers are responsible for moving most of the goods that you consume in your everyday. Without them, we'd be in trouble. It's also interesting to note they they transit from giant ships, to railways, to semi-trucks, and fit into the back loading dock of your local grocery because they are a uniform size. This same concept has been applied to computation. We'll start out by discussing the container technologies Docker and Singularity. We'll go over some use cases and highlight what containers won't do. Docker is NOT perfect. Then we'll break into hands-on setting up containers, finding pre-built containers, and running containers. 
 
 Bring a laptop! Or if you're really really strong you can bring a desktop. Ultimately, we'll move a Docker container into a Singularity container to set up for the July meet up.
