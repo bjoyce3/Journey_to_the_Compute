@@ -31,12 +31,7 @@ Two day hands-on workshop for Docker, Singularity, and leveraging HPC and cloud 
 		b. [Jetstream](https://use.jetstream-cloud.org/)
 	2. Industry
 		a. Amazon Web Services
-		b. 
-
-	AWS/Google
-Docker Swarm???
-Pegasus?
-
+		b. Google Cloud Services
 
 ---
 # Peer-reviewed Publications
