@@ -45,7 +45,7 @@ xdisk -c create -m 50 -d 20
 cd /xdisk/<username>/
 mkdir singularityimages
 
-### Request a node 
+### Requesting a node on Ocelote
 qsub -I -N <username>_singularity_worker -m bea -M <useremail>.arizona.edu -W group_list=<usergroupatUAHPC> -q windfall -l select=1:ncpus=1:mem=8gb -l cput=1:0:0 -l walltime=1:0:0
 
 ### Bring up Singularity and change to the bash setting
@@ -56,11 +56,31 @@ bash
 singularity shell eemt-current.img
 export PATH=/opt/eemt/bin:/opt/eemt/grass-7.2.0/bin:$PATH
 
-## Now you're on the node, here's what to do
+## Now you're set, start the worker by defining the scratch space and other HPC variables
+singularity exec --home $PWD:/srv --pwd /srv --scratch /var/tmp --scratch /tmp --contain --ipc --pid /xdisk/tswetnam/imgs/eemt-current.img
 
 ### Set up the project
 
 cd /xdisk/<username>/singularityimages
 wget http://xd-login.opensciencegrid.org/scratch/eemt/singularity/eemt-current.img
 
-### 
+## Check versions of packages in the container
+singularity exec eemt-current.img grass72 --version
+
+Terms:
+1) singularity exec - tells singularity to execute something in a container
+2) eemt-current.img - name of the singularity container we're running
+3) grass72 - an analysis tool package inside the eemt-current.img container
+4) --version - a flag to pass to grass72 to check the version
+
+
+# Check the status of the workflow once everything is connected!
+You can run executables in the container from outside the container
+
+singularity exec eemt-current.img work_queue_status
+
+Terms:
+1) singularity exec - tells singularity to execute something in a container
+2) eemt-current.img - name of the singularity container we're running
+3) work_queue_status - command to check the workers running on that master
+
