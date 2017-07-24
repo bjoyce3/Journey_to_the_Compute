@@ -14,10 +14,12 @@ ezs
 
 ## Make a working directory
 mkdir Desktop/singularityimages
+
 cd Desktop/singularityimages/
 
 ## Clone the package from GitHub
 git clone https://<github_username>@github.com/tyson-swetnam/sol-ot-comet-dev/
+
 cd sol-ot-comet-dev/
 
 ## Run the master cloud image
@@ -31,8 +33,11 @@ cd sol-ot-comet-dev/
 nano ~/.eemt-makeflow-password
 
 ezs
-git clone https://bjoyce3@github.com/tyson-swetnam/sol-ot-comet-dev
+
+git clone https://<github_username>@github.com/tyson-swetnam/sol-ot-comet-dev
+
 cd sol-ot-comet-dev/
+
 ./run-worker 
 
 # Starting a University of Arizona High Performance Computing worker
