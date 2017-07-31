@@ -1,7 +1,7 @@
 # Journey to the Compute
 Two day hands-on workshop for Docker, Singularity, and leveraging HPC and cloud resources.
 
-# Journey to the Compute, Episode 1: Containers to Quiet the Dependency Hells
+# Journey to the Compute, Episode 1: Containers to deal with dependencies
 
 ## Containers and why they're useful
 
