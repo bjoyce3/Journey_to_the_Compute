@@ -57,11 +57,7 @@ This work was adapted from previous work done by Upendra Devisetty (@upendrak), 
 
 # Workshop Events
 * [Meetup Day 1 June 2017](https://www.meetup.com/Tucson-Data-Science-Meetup/events/239386940/) 
-  In case you're not familiar, shipping containers are responsible for moving most of the goods that you consume in your everyday. Without them, we'd be in trouble. It's also interesting to note they they transit from giant ships, to railways, to semi-trucks, and fit into the back loading dock of your local grocery because they are a uniform size. This same concept has been applied to computation. We'll start out by discussing the container technologies Docker and Singularity. We'll go over some use cases and highlight what containers won't do. Docker is NOT perfect. Then we'll break into hands-on setting up containers, finding pre-built containers, and running containers. 
-
-  Bring a laptop! Or if you're really really strong you can bring a desktop. Ultimately, we'll move a Docker container into a Singularity container to set up for the July meet up.
   Attendees: 35
 
 * [Meetup Day 2 July 2017](https://www.meetup.com/Tucson-Data-Science-Meetup/events/239386968/)
-  We're gonna do what they say can't be done! 'Scaling up' compute is a tricky thing. Not only are there hardware issues to consider, but there are many secret sauce code streamlining fixes to deploy it on bigger compute. We're going to focus on how to move out to bigger compute, because that's generally the first step. Come join us! 
   Attendees: 31
